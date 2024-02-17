@@ -1,0 +1,92 @@
+.ab:hover {
+  color: orange;
+}
+
+.ab {
+  color: white;
+}
+
+.container,
+.nav {
+  background-color: #2b2e4a;
+}
+
+.first {
+  color: #305a96;
+}
+
+.first:hover {
+  color: #305a96;
+}
+
+@media only screen and (max-width: 996px) {
+  .second {
+    display: none;
+  }
+}
+
+h1 {
+  font-weight: 700 !important;
+}
+h4 {
+  font-weight: 600 !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #f77d0a;
+  .ab:hover {
+    color: orange;
+  }
+
+  .ab {
+    color: white;
+  }
+
+  .container,
+  .nav {
+    background-color: #2b2e4a;
+  }
+
+  .first {
+    color: #305a96;
+  }
+
+  .first:hover {
+    color: #305a96;
+  }
+
+  @media only screen and (max-width: 996px) {
+    .second {
+      display: none;
+    }
+  }
+
+  border-color: #f77d0a;
+}
+#first{
+    font-size: 50px;
+    font-weight: 900;
+}
+#headphone h4{
+    margin-left:20px;
+    color: #2B2E4A;
+    font-weight: 900;
+}
+#headphone2 h4{
+    margin-left:20px;
+    color: #2B2E4A;
+    font-weight: 900;
+}
+.responsive-image {
+    max-width: 100%; /* Ensure the image never exceeds its container's width */
+}
+
+/* Media query for small screens */
+@media (max-width: 576px) {
+    .responsive-image {
+        width: 80%; /* Adjust the image width for small screens */
+    }
+
+    .nav-item {
+justify-content: center;
+    }
